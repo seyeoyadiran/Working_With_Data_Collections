@@ -11,8 +11,7 @@ Take a few minutes to examine and refactor the code before continuing.
 
 const testData = "ID,Name,Occupation,Age\n42,Bruce,Knight,41\n57,Bob,Fry Cook,19\n63,Blaine,Quiz Master,58\n98,Bill,Doctor’s Assistant,26 "
 
-let myData = testData.split("\n")
-console.log(testData);
+let myData = testData.split("\n");
 
 let rows = myData.toString();
 let sepRows = rows.split(",");
